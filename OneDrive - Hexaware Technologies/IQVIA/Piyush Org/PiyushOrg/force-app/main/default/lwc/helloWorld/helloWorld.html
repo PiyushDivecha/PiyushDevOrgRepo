@@ -1,0 +1,13 @@
+<template>
+  <lightning-card title="Hello LWC">
+    <div class="slds-p-around_small">
+      <p>Hello, {name}!</p>
+      <lightning-input
+        label="Your name"
+        value={name}
+        onchange={handleChange}
+      ></lightning-input>
+      <lightning-button label="Reset" onclick={reset}></lightning-button>
+    </div>
+  </lightning-card>
+</template>
