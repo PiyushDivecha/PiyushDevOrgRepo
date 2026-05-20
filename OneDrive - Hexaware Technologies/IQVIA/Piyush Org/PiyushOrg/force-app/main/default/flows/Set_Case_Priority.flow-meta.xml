@@ -4,7 +4,7 @@
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <name>Check_Case_Details</name>
-        <label>Check Case Details</label>
+        <label>Check Case Details Updated</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
