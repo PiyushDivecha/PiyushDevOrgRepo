@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SCRUM-1: Read and edit Contract ID on Opportunity for Sales users closing deals.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Contract_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SCRUM-1 Contract ID Access</label>
+</PermissionSet>
