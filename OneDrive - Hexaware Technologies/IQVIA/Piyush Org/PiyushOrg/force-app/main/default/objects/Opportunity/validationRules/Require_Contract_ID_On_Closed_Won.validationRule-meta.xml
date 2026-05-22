@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Contract_ID_On_Closed_Won</fullName>
+    <active>true</active>
+    <description>SCRUM-1: Block Closed Won when Contract_ID__c is blank.</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL(StageName, &quot;Closed Won&quot;),
+  ISBLANK(Contract_ID__c)
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Please enter the Contract ID before closing the opportunity.</errorMessage>
+</ValidationRule>
