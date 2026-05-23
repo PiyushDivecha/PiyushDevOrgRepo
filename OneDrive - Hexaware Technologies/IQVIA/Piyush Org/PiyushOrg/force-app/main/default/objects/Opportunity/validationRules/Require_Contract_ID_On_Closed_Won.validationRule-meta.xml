@@ -8,5 +8,5 @@
   ISBLANK(Contract_ID__c)
 )</errorConditionFormula>
     <errorDisplayField>StageName</errorDisplayField>
-    <errorMessage>Please enter the Contract ID before closing the opportunity.</errorMessage>
+    <errorMessage>Please enter Contract ID before closing the opportunity.</errorMessage>
 </ValidationRule>
