@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
+    <types>
+    <members>AccountService</members>
+    <name>ApexClass</name>
+    </types>
+    -->
+    <!-- Flow: include the specific version file and its FlowDefinition to set active version 
+    <types>
+    <members>Set_Case_Priority</members>
+    <name>Flow</name>
+    </types>-->
+   
+    <types>
+        <members>Opportunity.Contract_ID__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Opportunity.Require_Contract_ID_On_Closed_Won</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>SCRUM1_Contract_ID_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Opportunity-Opportunity Layout</members>
+        <name>Layout</name>
+    </types>
+
+    
     <version>66.0</version>
 </Package>
